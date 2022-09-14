@@ -1,0 +1,14 @@
+.register-inputs {
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: rgba(196, 202, 202, 0.438);
+    padding: 12px 15px;
+    border-radius: 15px;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.register-inputs:invalid[focused="true"]~span {
+    display: block;
+}
