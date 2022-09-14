@@ -4,7 +4,6 @@ import Login from "./Components/Login/Login"
 import { UserList } from "./Constants/UserList";
 import Dashboard from "./Components/Dashboard/Dashboard";
 
-
 function App() {
 
   const [userData, setUserData] = useState(UserList);

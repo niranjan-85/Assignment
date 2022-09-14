@@ -6,7 +6,6 @@ function Dashboard(props) {
     console.log(props.userDataList)
     return (
         <>
-            <h1>User DashBoard</h1>
             <div className='table-container'>
                 <table className='content-table'>
                     <thead>
